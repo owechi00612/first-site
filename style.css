@@ -1,0 +1,145 @@
+
+.titlecard{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+
+h1{
+    border-bottom: 4px solid black;
+    max-width: 400px;
+
+}
+ 
+.container{
+    margin-bottom: 50px;
+}
+
+.nav-wraper{
+    display: flex;
+    padding-bottom: 10px;
+
+}
+
+.nav-item-wraper{
+   height: 60px;
+    border-bottom: solid transparent 3px;
+    margin-right: 20px;
+    padding-bottom: 0px;
+    transition: border-bottom 0.5s;
+
+}
+
+h2{
+    padding-bottom: 0px;
+}
+
+a{
+    margin-bottom: 10px;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: #888888;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item-wraper:hover{
+    border-bottom: black solid 3px;
+}
+
+
+.nav-item-wraper a:hover{
+    color: black;
+
+}
+
+/*this is the style of the 3 main images */
+
+.main-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-images > div > img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 0px;
+    
+    
+}
+
+.image-box{
+    
+    transition: all 1s;
+     
+}
+
+.image-box:hover{
+    transform: scale(1.1) ;
+}
+
+.image-text{
+    margin-top: 0px;
+    right: 0px;
+    text-align: center;
+    transition: all 1s;
+    color: black;
+
+
+}
+
+.image-text:hover{
+    transform: scale(1.1) ;
+}
+
+#create{
+    position: relative;
+    bottom: 250px;
+    margin-left: 90px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#community{
+    position: relative;
+    bottom: 250px;
+    margin-left: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    
+}
+
+#culture{
+    position: relative;
+    bottom: 250px;
+    margin-left: 125px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 4.5em;
+}
+
+
+/* About section styling */
+
+.about-pic > img{
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-text{
+    margin-top: 30px ;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 1.5em;
+    border: black solid;
+    border-radius: 5%;
+}
+
+
+
